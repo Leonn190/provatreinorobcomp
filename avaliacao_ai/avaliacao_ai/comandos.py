@@ -77,3 +77,11 @@
 
 # # 22) Se o terminal travar rodando nó ou simulador, pare com:
 # CTRL + C
+
+# caso der problema no push
+
+# cd ~/colcon_ws/src/provatreinorobcomp
+
+# git remote -v
+# git remote set-url origin git@github.com:Leonn190/provatreinorobcomp.git
+# git remote -v
