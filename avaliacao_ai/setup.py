@@ -23,7 +23,17 @@ setup(
         ],
     },
     entry_points={
-        'console_scripts': [
-        ],
-    },
+    'console_scripts': [
+        'base = avaliacao_ai.base:main',
+        'girador = avaliacao_ai.girador:main',
+        'estados = avaliacao_ai.estados:main',
+        'odom = avaliacao_ai.odom:main',
+        'pardes = avaliacao_ai.pardes:main',
+        'detector = avaliacao_ai.detector:main',
+        'detectacores = avaliacao_ai.detectacores:main',
+        'seguelinha = avaliacao_ai.seguelinha:main',
+        'q1 = avaliacao_ai.q1:main',
+        'q2 = avaliacao_ai.q2:main',
+    ],
+},
 )
